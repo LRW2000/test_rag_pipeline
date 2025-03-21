@@ -17,7 +17,7 @@ from bert_score import score
 # 配置参数
 class Config:
     # 输入路径
-    doc_dir = "/data/liangrw/test-rag-deepseek-一次性/规范文件"  # 文档目录
+    doc_dir = "/data/liangrw/test-文件"  # 文档目录
     test_data_path = "./test_data.json"  # 测试集路径
     embedding_model_path = "/data/liangrw/models/bge-m3"
     reranker_model_path = "/data/liangrw/models/bge-reranker-large"  # 本地reranker模型路径
