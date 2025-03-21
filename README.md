@@ -4,6 +4,10 @@
 
 1. **准备环境**：
    ```bash
+   conda create --name rag_pipeline python=3.10
+   
+   conda activate rag_pipeline
+   
    pip install langchain faiss-cpu sentence-transformers transformers rouge-score nltk jieba bert-score -i https://pypi.tuna.tsinghua.edu.cn/simple/
 
    pip install -U langchain-community -i https://pypi.tuna.tsinghua.edu.cn/simple
