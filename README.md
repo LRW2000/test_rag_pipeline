@@ -28,6 +28,7 @@
    ├── test_data.json        # 测试集文件
    └── rag_pipeline.py       # 本脚本文件
    ```
+   模型路径可以自己设定
 
 3. **测试集格式示例**（test_data.json）：
    ```json
